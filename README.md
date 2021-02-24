@@ -19,8 +19,11 @@ Make sure the files are downloaded to folder "CBIS-DDSM" in the same folder as t
 Download these Files from https://wiki.cancerimagingarchive.net/display/Public/CBIS-DDSM and put them in the same folder as the code
 
 Mass-Training-Description (csv)	https://wiki.cancerimagingarchive.net/download/attachments/22516629/mass_case_description_train_set.csv?version=1&modificationDate=1506796355038&api=v2
+
 Calc-Training-Description (csv)	https://wiki.cancerimagingarchive.net/download/attachments/22516629/calc_case_description_train_set.csv?version=1&modificationDate=1506796349666&api=v2
+
 Mass-Test-Description (csv)	https://wiki.cancerimagingarchive.net/download/attachments/22516629/mass_case_description_test_set.csv?version=1&modificationDate=1506796343175&api=v2
+
 Calc-Test-Description (csv) https://wiki.cancerimagingarchive.net/download/attachments/22516629/calc_case_description_test_set.csv?version=1&modificationDate=1506796343686&api=v2
 
 2- Run "cbis_ddsm_rename_dicom_files.py". This will delete files from "CBIS-DDSM" folder, if you think you might need the data later, make a backup copy of it somewhere else.
@@ -30,10 +33,15 @@ Calc-Test-Description (csv) https://wiki.cancerimagingarchive.net/download/attac
 4- Download the following folders from DDSM dataset at http://www.eng.usf.edu/cvprg/Mammography/Database.html
 
 normal_07
+
 normal_08
+
 normal_09
+
 normal_10
+
 normal_11
+
 normal_12
 
 Convert them to PNG format using this:
